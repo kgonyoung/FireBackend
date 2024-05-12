@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class TestController {
+public class TestApi {
 
     @GetMapping("/test")
     public String test() {
